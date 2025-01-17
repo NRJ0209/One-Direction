@@ -1,0 +1,26 @@
+/* Menú Horizontal */
+#menuhorizontal {
+    width: 491px;
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 9px;
+    margin-left: 10px;
+    font-size: 120%;
+}
+
+#menuhorizontal a {
+    padding: 0px 25px 0px;
+    color: #f4f4f4;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+#menuhorizontal a:hover {
+    background: black;
+    color: red;
+}
+
+/* Fondo */
+body {
+    background: url("fondo rojo.png") no-repeat center center fixed;
+    background-size: cover;
+}
